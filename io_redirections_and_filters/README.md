@@ -1,0 +1,1 @@
+0 La commande pour afficher le text Hello, World! est : echo "Hello, World!"
