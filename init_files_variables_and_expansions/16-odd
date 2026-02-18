@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep '^[[:space:]]*[0-9]*[13579][[:space:]].$' | sed 's/^[[:space:]]*[0-9]*[[:space:]]*//'
+grep -n "" input.txt | grep "^[0-9]*[13579]:" | cut -d: -f2-
